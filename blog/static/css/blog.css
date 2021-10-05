@@ -1,0 +1,32 @@
+.page-header .container h1 a {
+    
+    color: hsl(290, 77%, 66%);
+    font-family: 'Lobster';
+    font-size: 40px;
+}
+.page-header{
+    background-color: antiquewhite;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
+}
+
+
+.page-header h1 a:hover {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #e46f6f;
+}
+body {
+    padding-left: 15px;
+}
