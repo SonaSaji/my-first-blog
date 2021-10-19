@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <title>User Regiser</title>
+    <header><h1>Register</h1></header>
+    <body>
+        <form method="post">
+            {{form.as_table}}
+            {% csrf_token %}
+            <input type="submit" value="Register">
+        </form>
+        
+    </body>
+</html>

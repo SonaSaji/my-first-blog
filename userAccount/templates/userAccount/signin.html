@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SignUp/SignIn</title>
+    </head>
+    <body>
+        {% include 'userAccount/messages.html' %}
+        <h1>SignUp</h1>
+
+        <form action="" method="post">
+        {% csrf_token %}
+            <label for="">Username</label>
+            <input type="text" id="username" name="username" placeholder="create your username" Required>
+            <br>
+
+            <label for="">Password</label>
+            <input type="password" id="pass1" name="pass1" placeholder="Enter your password" Required>
+            <br>
+
+            <button type="submit">Sign In</button>
+        </form>    
+    </body>
+</html>

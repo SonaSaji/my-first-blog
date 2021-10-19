@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SignUp/SignIn</title>
+    </head>
+    <body>
+        <h1>Welcome to HomePage</h1>
+        {% include 'userAccount/messages.html' %}
+        {% if user.is_authenticated %}
+        <h3> Hello {{fname}}</h3>
+        <br>
+        <h4>You are successfully logged in.</h4>
+
+        <button type="submit"><a href="/userAccount/signout">SignOut</a></button>
+        {% endif %}
+    </body>
+</html>

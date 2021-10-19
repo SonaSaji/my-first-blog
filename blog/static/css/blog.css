@@ -45,6 +45,15 @@ body {
     text-decoration: none;
     padding-bottom :20px; 
     margin-top: 20px;
+    float: right;
+
+}
+
+.btn-default,
+.btn-default:visited {
+    color: #C25100;
+    background: none;
+    border-color: #C25100;
 }
 
 .top-menu:hover{
